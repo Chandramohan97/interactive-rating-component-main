@@ -1,5 +1,5 @@
 :root{
-    --desktop-width: 420px; 
+    --desktop-width: 380px; 
     --mobile-width : 300px;
 }
 
@@ -7,7 +7,7 @@
     width: var(--desktop-width);
     border: 1px solid black;
     margin: auto;
-    height: 300px;
+    height: 350px;
     background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     /* margin-top: vh; */
 }
 
-.circle{
+.logo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,24 @@ img{
 }
 
 p{
-    width: 350px;
+    width: 300px;
     font-size: 15px;
     color: hsl(217, 12%, 63%);
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    gap: 20px;
+
+}
+
+.circle{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: hsl(213, 19%, 18%);
 }
