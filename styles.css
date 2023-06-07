@@ -1,6 +1,7 @@
 :root{
-    --desktop-width: 380px; 
+    --desktop-width: 370px; 
     --mobile-width : 300px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .primaryContainer{
@@ -14,6 +15,8 @@
     box-sizing: border-box;
     padding-top: 20px;
     padding-left: 20px;
+    border-radius: 25px;
+    border-width: 0px;
     /* justify-content: */
     /* margin-top: vh; */
 }
@@ -22,11 +25,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
-    border: 1px solid red;
-    background-color: hsl(213, 19%, 18%);
+    border: 1px solid black groove;
+    border-width: 0px;    
+    background-color: hsl(213, 19%, 22%);
 }
 img{
     height: 10px;
@@ -35,7 +39,7 @@ img{
 }
 
 p{
-    width: 300px;
+    width: 280px;
     font-size: 15px;
     color: hsl(217, 12%, 63%);
 }
@@ -43,16 +47,34 @@ p{
 .ratings{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     /* justify-content:space-between; */
-    gap: 20px;
+    /* gap: 20px; */
 
 }
 
 .circle{
     display: flex;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
+    margin: auto;
     border: 1px solid red;
     background-color: hsl(213, 19%, 18%);
+    border-width: 0px;
+}
+
+input{
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 30px;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color :hsl(25, 97%, 53%);
 }
