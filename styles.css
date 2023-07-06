@@ -1,6 +1,8 @@
 body{
     background-color:  hsl(216, 12%, 8%);
+    
 }
+
 :root{
     --desktop-width: 330px; 
     --mobile-width : 300px;
@@ -21,9 +23,6 @@ body{
     padding-left: 20px;
     border-radius: 25px;
     border-width: 0px;
-    /* border-bottom: 0.5px solid; */
-    /* justify-content: */
-    /* margin-top: vh; */
 }
 .primaryContainer p:first-of-type{
     width: 280px;
@@ -148,14 +147,15 @@ input:hover{
         margin: auto;
         height: 340px;
         background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-between; */
         box-sizing: border-box;
         padding-top: 20px;
         padding-left: 20px;
         border-radius: 25px;
         border-width: 0px;
+        margin-top: 20px;
 }
 
 @media only screen and (max-width:768px) {
@@ -177,7 +177,26 @@ input:hover{
 }
 
 .final-container img{
-    height: 25px;
-    width: 25px;
+    height: 100px;
+    width: 125px;
     margin: auto;   
 }
+
+.selected-rating{
+    border: 1px solid ;
+    width: 180px;
+    height: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color:  hsla(217, 12%, 63%,0.08);
+    border-color: transparent;
+}
+.selected-rating p{
+    color :hsla(25, 97%, 50%,0.6);
+    font-size : 14px;  
+    font-weight: 500;    
+} 
