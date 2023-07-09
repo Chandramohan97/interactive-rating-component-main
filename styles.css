@@ -125,7 +125,7 @@ body{
 }
 
 .circle:hover{
-    background-color: hsl(25, 97%, 53%) ;
+    background-color: grey ;
     cursor: pointer;
 }
 
@@ -161,8 +161,8 @@ input:hover{
         border-radius: 25px;
         border-width: 0px;
         margin-top: 20px;
-        /* visibility:hidden; */
-        display: none;
+        visibility:hidden;
+        /* display: none; */
         border-bottom: thin;
         /* border-bottom: 1px solid red; */
 }
@@ -182,7 +182,7 @@ input:hover{
         padding-left: 20px;
         border-radius: 25px;
         border-width: 0px;
-        display: none;
+        visibility:hidden;
     }
 }
 
@@ -195,7 +195,7 @@ input:hover{
 .selected-rating{
     border: 1px solid;
     width: 180px;
-    height: 25px;
+    height: 24px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -209,7 +209,8 @@ input:hover{
 .selected-rating p{
     color :hsla(25, 97%, 50%,0.6);
     font-size : 14px;  
-    font-weight: 500;    
+    font-weight: 400;   
+    
 } 
 
 h3{
